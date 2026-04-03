@@ -25,7 +25,7 @@ class Switchboard:
     def register_call(self, raw_call: str) -> ActiveCall:
         '''
         Метод должен принимать только 1 строку и возвращать класс ActiveCall.
-        На входе строка должна быть вида "caller_id,caller_name,caller_phone,reciever_id,reciever_name,reciever_phone"
+        На входе строка должна быть вида "caller_id,caller_name,caller_phone,receiver_id,receiver_name,receiver_phone"
 
         Например: "1001,Иван Петров,+71234567890,1085,Адам Яковлев,+71255556666"
         '''
